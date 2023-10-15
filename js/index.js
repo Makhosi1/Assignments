@@ -2,15 +2,19 @@
 
 //fizzBuzz assignment
 
-let theRange = 1-100
 
-function fizzBuzz (a = 1-100){
-    for(a=0; a <= 100; a+=3) {
-        console.log("fizz " + theRange[a]);
-    }
-} console.log("Fizz");
+    for (i=1; i<=100; i++){
+        if(i %3 === 0){
+            console.log("fizz");
+        }else if( i %5 ===0){
+            console.log("buzz");
+        }else if ( i % 15 === 0){
+            console.log("fizzBuzz")
+        } else 
+        console.log(i);
 
-fizzBuzz();
+    };
+    
 
 // *** End of assignement 
 
